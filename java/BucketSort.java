@@ -3,7 +3,7 @@
 import java.util.*;
 import java.util.Collections;
 
-class BucketSort{
+class bucketSort {
 
 	// Function to sort arr[] of size n
 	// using bucket sort
@@ -50,7 +50,6 @@ class BucketSort{
 		int n = arr.length;
 		bucketSort(arr, n);
 
-	
 		for (float el : arr) {
 			System.out.print(el + " ");
 		}
